@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover delicious food, fresh ingredients, and warm hospitality at Savora Restaurant.">
+  <title>Savora Restaurant | A Taste Worth Remembering</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top savora-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">
+        <i class="bi bi-fire me-2"></i>SAVORA<span>.</span>
+      </a>
+
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <a class="btn btn-saffron ms-lg-2" href="#menu">Explore Menu</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content text-center">
+      <span class="eyebrow">FRESH INGREDIENTS · UNFORGETTABLE FLAVOUR</span>
+      <h1>Good Food.<br><span>Great Moments.</span></h1>
+      <p class="hero-description">
+        Discover delicious flavours, beautiful dishes, and the joy of eating well.
+      </p>
+      <a href="#menu" class="btn btn-saffron btn-lg mt-3">
+        Discover Our Menu <i class="bi bi-arrow-right ms-2"></i>
+      </a>
+    </div>
+    <a href="#menu" class="scroll-indicator" aria-label="Scroll to menu">
+      <i class="bi bi-chevron-down"></i>
+    </a>
+  </header>
+
+  <!-- Welcome Strip -->
+  <section class="welcome-strip">
+    <div class="container">
+      <div class="row g-3 text-center">
+        <div class="col-12 col-md-4">
+          <i class="bi bi-flower1"></i>
+          <span>Fresh, Quality Ingredients</span>
+        </div>
+        <div class="col-12 col-md-4">
+          <i class="bi bi-heart"></i>
+          <span>Made With Love</span>
+        </div>
+        <div class="col-12 col-md-4">
+          <i class="bi bi-stars"></i>
+          <span>Memorable Dining Experiences</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="section-padding menu-section" id="menu">
+    <div class="container">
+      <div class="section-heading text-center">
+        <span class="eyebrow dark-eyebrow">A LITTLE SOMETHING DELICIOUS</span>
+        <h2>Our Signature Menu</h2>
+        <p>Freshly prepared favourites, made to make your day better.</p>
+      </div>
+
+      <div class="row g-4 mt-3">
+        <!-- Menu Item 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card menu-card h-100">
+            <div class="menu-image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=85"
+                class="card-img-top menu-image"
+                alt="Fresh, colourful gourmet salad"
+                loading="lazy">
+              <span class="menu-badge">Fresh Pick</span>
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start gap-2">
+                <h3 class="card-title">Garden Fresh Bowl</h3>
+                <span class="menu-price">₦8,500</span>
+              </div>
+              <p class="card-text">Crisp greens, seasonal vegetables, avocado, and our signature house dressing.</p>
+              <div class="menu-meta"><i class="bi bi-clock me-1"></i> 15–20 mins</div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card menu-card h-100">
+            <div class="menu-image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85"
+                class="card-img-top menu-image"
+                alt="Juicy gourmet beef burger"
+                loading="lazy">
+              <span class="menu-badge">Customer Favourite</span>
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start gap-2">
+                <h3 class="card-title">Savora Classic Burger</h3>
+                <span class="menu-price">₦12,000</span>
+              </div>
+              <p class="card-text">A juicy grilled beef patty with melted cheese, fresh lettuce, and golden fries.</p>
+              <div class="menu-meta"><i class="bi bi-clock me-1"></i> 20–25 mins</div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card menu-card h-100">
+            <div class="menu-image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=85"
+                class="card-img-top menu-image"
+                alt="Pasta with herbs and fresh ingredients"
+                loading="lazy">
+              <span class="menu-badge">Chef's Choice</span>
+            </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-start gap-2">
+                <h3 class="card-title">Creamy Herb Pasta</h3>
+                <span class="menu-price">₦10,500</span>
+              </div>
+              <p class="card-text">Delicate pasta tossed in a creamy sauce with herbs and a sprinkle of Parmesan.</p>
+              <div class="menu-meta"><i class="bi bi-clock me-1"></i> 20–25 mins</div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="#contact" class="btn btn-outline-dark rounded-pill px-4 py-3">
+          Ask About Our Menu <i class="bi bi-arrow-right ms-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="section-padding about-section" id="about">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-12 col-lg-6">
+          <div class="about-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1100&q=85"
+              alt="Beautifully presented meal in an elegant restaurant"
+              class="about-image"
+              loading="lazy">
+            <div class="experience-note">
+              <i class="bi bi-heart-fill"></i>
+              <span>Food made<br>with passion</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <span class="eyebrow dark-eyebrow">OUR STORY</span>
+          <h2 class="about-title">More Than Food.<br>A Feeling.</h2>
+          <p class="about-lead">
+            At Savora, we believe every meal deserves to be special.
+          </p>
+          <p class="about-copy">
+            Our fictional restaurant was created around a simple idea: bring people
+            together through delicious food, thoughtfully chosen ingredients, and
+            warm hospitality. From a casual lunch to a special dinner, we want
+            every visit to feel welcoming and memorable.
+          </p>
+          <p class="about-copy">
+            We combine creativity, flavour, and care to make every plate an
+            experience worth sharing.
+          </p>
+          <a href="#contact" class="btn btn-saffron mt-3">
+            Get in Touch <i class="bi bi-arrow-right ms-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section-padding contact-section" id="contact">
+    <div class="container">
+      <div class="section-heading text-center">
+        <span class="eyebrow">WE'D LOVE TO HEAR FROM YOU</span>
+        <h2>Let's Make It Special</h2>
+        <p>Have a question or planning a visit? Send us a message.</p>
+      </div>
+
+      <div class="row justify-content-center mt-4">
+        <div class="col-12 col-lg-8">
+          <div class="contact-card">
+            <form id="contactForm">
+              <div class="row g-4">
+                <div class="col-12 col-md-6">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" class="form-control" id="name"
+                    name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="col-12 col-md-6">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email"
+                    name="email" placeholder="you@example.com" required>
+                </div>
+
+                <div class="col-12">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea class="form-control" id="message" name="message"
+                    rows="5" placeholder="Tell us how we can help..." required></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn btn-saffron btn-lg w-100">
+                    Send Message <i class="bi bi-send ms-2"></i>
+                  </button>
+                </div>
+
+                <div class="col-12">
+                  <div id="formFeedback" class="form-feedback" role="status" aria-live="polite"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-12 col-md-6 text-center text-md-start">
+          <a class="footer-brand" href="#home"><i class="bi bi-fire me-2"></i>SAVORA.</a>
+          <p class="footer-tagline mb-0">Good food. Great moments.</p>
+        </div>
+
+        <div class="col-12 col-md-6 text-center text-md-end">
+          <div class="social-links mb-3">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+          </div>
+          <p class="copyright mb-0">&copy; <span id="currentYear">2026</span> Savora Restaurant. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
